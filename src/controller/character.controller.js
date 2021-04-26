@@ -23,7 +23,6 @@ const listAll = (req, res) => {
     })
 }
 
-
 const getCharacter = (req, res) => {
     var id = req.params.characterId
     var url = `${urlApiMarvel}/${id}?ts=${ts}&apiKey=${publicKey}&hash=${hash}`
