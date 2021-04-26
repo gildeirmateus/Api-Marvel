@@ -1,0 +1,185 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "API Marvel",
+        "version": "1.0.0",
+        "description": "Trabalho API Marvel",
+        "license": {
+            "name": "node 14.16.0",
+            "url": "https://openjsf.org/certification/"
+        }
+    },
+    "host": "https://polar-river-85704.herokuapp.com",
+    "basePath": "/",
+    "tags": [
+      {
+        "name": "Gildeir Mateus Pereira, Alysson Renan Pereira",
+        "description": "Admins da Api Marvel"
+      }
+    ],
+    "schemes": [
+      "https"
+    ],
+    "paths": {
+        "/v1/public/characters": {
+            "get": {
+              "tags": [
+                "Characters"
+              ],
+              "description": "Retorna todos os personagens",
+              "parameters": [],
+              "responses": {
+                    "201": {
+                        "description": "Requisição realizada com sucesso"
+                    },
+                    "400": {
+                        "description": "Erro na requisição"
+                    },
+                    "500": {
+                        "description": "Erro interno no servidor"
+                    }
+              }
+            }
+          },
+          "/v1/public/characters/{characterId}": {
+            "get": {
+              "tags": [
+                "Character"
+              ],
+              "description": "Retorna o personagem da Marvel de acordo com o id",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "type": "string",
+                  "description": "ID do character"
+                }
+              ],
+              "responses": {
+                "201": {
+                    "description": "Requisição realizada com sucesso"
+                },
+                "400": {
+                    "description": "Erro na requisição"
+                },
+                "500": {
+                    "description": "Erro interno no servidor"
+                }
+              }
+            }
+          },
+          "/v1/public/characters/{characterId}/comics": {
+            "get": {
+              "tags": [
+                "Comics"
+              ],
+              "description": "Retorna as comics do personagem da Marvel de acordo com o id",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "type": "string",
+                  "description": "ID do character"
+                }
+              ],
+              "responses": {
+                "201": {
+                    "description": "Requisição realizada com sucesso"
+                },
+                "400": {
+                    "description": "Erro na requisição"
+                },
+                "500": {
+                    "description": "Erro interno no servidor"
+                }
+              }
+            }
+          },
+          "/v1/public/characters/{characterId}/events": {
+            "get": {
+              "tags": [
+                "Events"
+              ],
+              "description": "Retorna os events do personagem da Marvel de acordo com o id",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "type": "string",
+                  "description": "ID do character"
+                }
+              ],
+              "responses": {
+                "201": {
+                    "description": "Requisição realizada com sucesso"
+                },
+                "400": {
+                    "description": "Erro na requisição"
+                },
+                "500": {
+                    "description": "Erro interno no servidor"
+                }
+              }
+            }
+          },
+          "/v1/public/characters/{characterId}/series": {
+            "get": {
+              "tags": [
+                "Series"
+              ],
+              "description": "Retorna as series do personagem da Marvel de acordo com o id",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "type": "string",
+                  "description": "ID do character"
+                }
+              ],
+              "responses": {
+                "201": {
+                    "description": "Requisição realizada com sucesso"
+                },
+                "400": {
+                    "description": "Erro na requisição"
+                },
+                "500": {
+                    "description": "Erro interno no servidor"
+                }
+              }
+            }
+          },
+          "/v1/public/characters/{characterId}/stories": {
+            "get": {
+              "tags": [
+                "Stories"
+              ],
+              "description": "Retorna as stories do personagem da Marvel de acordo com o id",
+              "parameters": [
+                {
+                  "name": "id",
+                  "in": "path",
+                  "required": true,
+                  "type": "string",
+                  "description": "ID do character"
+                }
+              ],
+              "responses": {
+                "201": {
+                    "description": "Requisição realizada com sucesso"
+                },
+                "400": {
+                    "description": "Erro na requisição"
+                },
+                "500": {
+                    "description": "Erro interno no servidor"
+                }
+              }
+            }
+        }
+    }
+}
