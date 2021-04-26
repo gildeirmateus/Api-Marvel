@@ -1,12 +1,13 @@
 const urlApiMarvel ='http://gateway.marvel.com/v1/public/characters'
 const axios = require('axios')
-const md5 = require('md5')
 
-const ts = Number(new Date())
+const ts = process.env.ts
 const publicKey = process.env.publicKey
-const privateKey = process.env.privateKey
+const hash = process.env.hash
 
-const hash = md5(ts + privateKey + publicKey)
+console.log(ts)
+console.log(publicKey)
+console.log(hash)
 
 const listAll = (req, res) => {
     var url =`${urlApiMarvel}?ts=${ts}&apikey=${publicKey}&hash=${hash}`
