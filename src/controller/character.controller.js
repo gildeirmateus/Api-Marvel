@@ -9,7 +9,6 @@ const ts = '1619398026716'
 const apiKey = 'f947a27225c703abbafbb71bbcec4f24'
 const hash = '67ba997fe2a94a339a3202caa15532a7'
 
-
 const listAll = (req, res) => {
     var url = `${urlApiMarvel}?ts=${ts}&apikey=${apiKey}&hash=${hash}`
 
