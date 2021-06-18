@@ -93,11 +93,14 @@ const listStories = (req, res) => {
         })
 }
 
+const soma = (a, b) => a + b
+
 module.exports = {
     listAll,
     getCharacter,
     listComics,
     listEvents,
     listSeries,
-    listStories
+    listStories,
+    soma
 }
