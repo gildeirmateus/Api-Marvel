@@ -9,5 +9,4 @@ router.get('/v1/public/characters/:characterId/events', controller.listEvents)
 router.get('/v1/public/characters/:characterId/series', controller.listSeries)
 router.get('/v1/public/characters/:characterId/stories', controller.listStories)
 
-
 module.exports = router 
