@@ -18,6 +18,8 @@ jobs:
 
       - name: install dependencies
         run: npm install
+        working-derecotry: ./
       
       - name: run unit test with Jest
         run: npm test
+        working-derecotry: ./
