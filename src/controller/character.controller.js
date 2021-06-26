@@ -13,12 +13,8 @@ const listAll = (req, res) => {
     var url = `${urlApiMarvel}?ts=${ts}&apikey=${apiKey}&hash=${hash}`
 
     axios.get(url).then(function (response) {
-            console.log(response);
+            //console.log(response);
             res.status(200).send(response.data)
-        }).catch(function (error) {
-            res.status(404).send({
-                message: error
-            })
         })
 }
 
@@ -27,7 +23,7 @@ const getCharacter = (req, res) => {
     var url = `${urlApiMarvel}/${id}?ts=${ts}&apikey=${apiKey}&hash=${hash}`
 
     axios.get(url).then(function (response) {
-            console.log(response);
+            //console.log(response);
             res.status(200).send(response.data)
         }).catch(function (error) {
             res.status(404).send({
@@ -42,7 +38,7 @@ const listComics = (req, res) => {
     var url = `${urlApiMarvel}/${id}/comics?ts=${ts}&apikey=${apiKey}&hash=${hash}`
 
     axios.get(url).then(function (response) {
-            console.log(response);
+            //console.log(response);
             res.status(200).send(response.data)
         }).catch(function (error) {
             res.status(404).send({
@@ -56,7 +52,7 @@ const listEvents = (req, res) => {
     var url = `${urlApiMarvel}/${id}/events?ts=${ts}&apikey=${apiKey}&hash=${hash}`
 
     axios.get(url).then(function (response) {
-            console.log(response);
+            //console.log(response);
             res.status(200).send(response.data)
         }).catch(function (error) {
             res.status(404).send({
@@ -70,7 +66,7 @@ const listSeries = (req, res) => {
     var url = `${urlApiMarvel}/${id}/series?ts=${ts}&apikey=${apiKey}&hash=${hash}`
 
     axios.get(url).then(function (response) {
-            console.log(response);
+            //console.log(response);
             res.status(200).send(response.data)
         }).catch(function (error) {
             res.status(404).send({
@@ -84,7 +80,7 @@ const listStories = (req, res) => {
     var url = `${urlApiMarvel}/${id}/stories?ts=${ts}&apikey=${apiKey}&hash=${hash}`
 
     axios.get(url).then(function (response) {
-            console.log(response);
+            //console.log(response);
             res.status(200).send(response.data)
         }).catch(function (error) {
             res.status(404).send({
@@ -93,14 +89,11 @@ const listStories = (req, res) => {
         })
 }
 
-const soma = (a, b) => a + b
-
 module.exports = {
     listAll,
     getCharacter,
     listComics,
     listEvents,
     listSeries,
-    listStories,
-    soma
+    listStories
 }
