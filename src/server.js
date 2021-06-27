@@ -8,9 +8,6 @@ const router = require('./routes/character.route')
 
 require("dotenv").config()
 
-app.get('/', (req, res)=>{
-    res.send('Hello from GitHub Action')
-})
 
 app.use(express.json())
 app.use('/', router)
