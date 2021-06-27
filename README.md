@@ -1,6 +1,6 @@
 <h1>Trabalho Api-Marvel</h1>
 
-<p>Trabalho realizado para a aula de Tópicos Avançados.</p>
+<h2>Trabalho realizado para a aula de Tópicos Avançados.</h2>
 
 Para rodar o teste unitário os seguintes passos devem ser seguidos:
 
@@ -21,22 +21,22 @@ Para executar o projeto utilize:
     npm start
 
 O projeto ficará disponivel na porta:
-
-    http://localhost:8080/
+    <a href="http://localhost:8080/"></a>
+    
 
 As seguintes portas mostram respectivamente
 
     Todos os personagens
-
-        http://localhost:8080/v1/public/characters/
+<a href="http://localhost:8080/v1/public/characters/"></a>
+        
 
     Todo o conteudo relacionado ao personagem de ID x
-
-        http://localhost:8080/v1/public/characters
+<a href="http://localhost:8080/v1/public/characters"></a>
+        
     
     Os quadrinhos que o personagem de ID X participa
-
-        http://localhost:8080/v1/public/characters/1009718/comics
+<a href="http://localhost:8080/v1/public/characters/1009718/comics"></a>
+        
 
     Os eventos que o personagem de ID X participa
 
