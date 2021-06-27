@@ -21,7 +21,9 @@ Para executar o projeto utilize:
     npm start
 
 O projeto ficará disponivel na porta:
-<p><a href="http://localhost:8080/"></a></p>
+
+- (http://localhost:8080/)
+
     
 
 As seguintes portas mostram respectivamente
