@@ -64,6 +64,14 @@ As histórias que o personagem de ID X participa
 
 Uma lista com os testes será exibida, abaixo um grafico mostrando a porcentagem de código que os testes cobriram.
 
+<h5>Link para a imagem da API no Docker Hub</h5>
+
+- (https://hub.docker.com/repository/docker/gildeir/api-marvel)
+
+Para rodar a imagem do Docker utilize o seguinte comando
+
+    docker run -p 8080:8080 'gildeir/api-marvel:latest'
+
 
     
 
