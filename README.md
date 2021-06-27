@@ -25,34 +25,40 @@ O projeto ficará disponivel na porta:
 - (http://localhost:8080/)
 
     
-<h3>As seguintes portas mostram respectivamente:</h3>
+<h3>Os seguintes links mostram respectivamente as portas do projeto e os links correspondente a cada uma das portas deployiado no Heroku:</h3>
 
 Todos os personagens
 
 - (http://localhost:8080/v1/public/characters/)   
+- (https://polar-river-85704.herokuapp.com/v1/public/characters)   
 
 Todo o conteudo relacionado ao personagem de ID x
        
 - (http://localhost:8080/v1/public/characters/1009718)
+- (https://polar-river-85704.herokuapp.com/v1/public/characters/1009718)
 
 Os quadrinhos que o personagem de ID X participa
    
 - (http://localhost:8080/v1/public/characters/1009718/comics)
+- (https://polar-river-85704.herokuapp.com/v1/public/characters/1009718/comics)
 
 Os eventos que o personagem de ID X participa
 
-- (http://localhost:8080/v1/public/characters/1009718/events)    
+- (http://localhost:8080/v1/public/characters/1009718/events)  
+- (https://polar-river-85704.herokuapp.com/v1/public/characters/1009718/events)   
 
 As series que o personagem de ID X participa
 
 - (http://localhost:8080/v1/public/characters/1009718/series)
+- (https://polar-river-85704.herokuapp.com/v1/public/characters/1009718/series)
 
 As histórias que o personagem de ID X participa
 
 - (http://localhost:8080/v1/public/characters/1009718/stories)
+- (https://polar-river-85704.herokuapp.com/v1/public/characters/1009718/stories)
         
 
-<h4></h4>Para executar os testes utilize o comando:
+<h4>Para executar os testes utilize o comando:</h4>
 
     npm test
 
