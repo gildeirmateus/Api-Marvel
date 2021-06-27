@@ -3,7 +3,7 @@ name: Generate Docker Image
 on: [push]
 
 jobs:
-  push to registry
+  push_to_registry:
     name: Setup Docker Image
     runs-on: ubuntu-latest
 
