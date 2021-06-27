@@ -25,36 +25,34 @@ O projeto ficará disponivel na porta:
 - (http://localhost:8080/)
 
     
+<h3>As seguintes portas mostram respectivamente:</h3>
 
-As seguintes portas mostram respectivamente
+Todos os personagens
 
-    Todos os personagens
-<p><a href="http://localhost:8080/v1/public/characters/"></a></p>
+- (http://localhost:8080/v1/public/characters/)   
 
+Todo o conteudo relacionado ao personagem de ID x
+       
+- (http://localhost:8080/v1/public/characters/1009718)
+
+Os quadrinhos que o personagem de ID X participa
+   
+- (http://localhost:8080/v1/public/characters/1009718/comics)
+
+Os eventos que o personagem de ID X participa
+
+- (http://localhost:8080/v1/public/characters/1009718/events)    
+
+As series que o personagem de ID X participa
+
+- (http://localhost:8080/v1/public/characters/1009718/series)
+
+As histórias que o personagem de ID X participa
+
+- (http://localhost:8080/v1/public/characters/1009718/stories)
         
 
-    Todo o conteudo relacionado ao personagem de ID x
-<a href="http://localhost:8080/v1/public/characters"></a>
-<p></p>        
-    
-    Os quadrinhos que o personagem de ID X participa
-<a href="http://localhost:8080/v1/public/characters/1009718/comics"></a>
-<p></p>        
-
-    Os eventos que o personagem de ID X participa
-
-        http://localhost:8080/v1/public/characters/1009718/events
-
-    As series que o personagem de ID X participa
-    
-        http://localhost:8080/v1/public/characters/1009718/events
-
-    As histórias que o personagem de ID X participa
-
-        http://localhost:8080/v1/public/characters/1009718/stories
-
-
-Para executar os testes utilize o comando:
+<h4></h4>Para executar os testes utilize o comando:
 
     npm test
 
