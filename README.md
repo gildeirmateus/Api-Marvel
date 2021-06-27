@@ -21,22 +21,23 @@ Para executar o projeto utilize:
     npm start
 
 O projeto ficará disponivel na porta:
-    <a href="http://localhost:8080/"></a>
+<p><a href="http://localhost:8080/"></a></p>
     
 
 As seguintes portas mostram respectivamente
 
     Todos os personagens
-<a href="http://localhost:8080/v1/public/characters/"></a>
+<p><a href="http://localhost:8080/v1/public/characters/"></a></p>
+
         
 
     Todo o conteudo relacionado ao personagem de ID x
 <a href="http://localhost:8080/v1/public/characters"></a>
-        
+<p></p>        
     
     Os quadrinhos que o personagem de ID X participa
 <a href="http://localhost:8080/v1/public/characters/1009718/comics"></a>
-        
+<p></p>        
 
     Os eventos que o personagem de ID X participa
 
