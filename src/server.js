@@ -5,6 +5,7 @@ const router = require('./routes/character.route')
 const swaggerUi = require('swagger-ui-express')
 const swaggerFile = require('../swagger_output.json')
 
+
 require("dotenv").config()
 
 app.get('/', (req, res)=>{
