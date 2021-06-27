@@ -1,7 +1,6 @@
-Trabalho Api-Marvel
+<h1>Trabalho Api-Marvel</h1>
 
-
-Trabalho realizado para a aula de Tópicos Avançados.
+<p>Trabalho realizado para a aula de Tópicos Avançados.</p>
 
 Para rodar o teste unitário os seguintes passos devem ser seguidos:
 
@@ -9,7 +8,7 @@ Clone o repositório:
 
     git clone https://github.com/gildeirmateus/Api-Marvel.git
 
-Acesse a pasta do projeto
+Localize e acesse a pasta do projeto pelo terminal
 
     cd Api-Marvel
 
